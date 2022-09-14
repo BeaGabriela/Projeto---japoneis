@@ -12,14 +12,14 @@
 <body onload="ll()">
     <button class='cadastrar' onclick='abrirModalCadastro()'>Novo Lançamento +</button>
     <p id="titulo">Livro Caixa</p>
-    <p id="filtro">Filtro: <input id='d' onblur="datas()" type='text' placeholder="data"></p>
+    <p id="filtro">Filtro: <input id='d' onblur="datas()" type='text' placeholder="Data"></p>
     <div class="modal editar model"> 
         <div class="modal-content">
             <button onclick="fecharModalCadastro()"> <img class="icone" src="https://cdn.icon-icons.com/icons2/1674/PNG/512/close_111152.png" height="17px" alt="Icone de Fechar"> </button>
             <div class="modal-content-body"> 
-        <input type="text" id="descricaoo" placeholder="descricao">
-        <input type="text" id="valorr" placeholder="valor">
-       <select name='tipo' id='tipoo' placeholder="tipo">
+        <input type="text" id="descricaoo" placeholder="Descrição">
+        <input type="text" id="valorr" placeholder="Valor">
+       <select name='tipo' id='tipoo' placeholder="Tipo">
         <option value="D">Débito</option>
         <option value="C">Crédito</option>
        </select>
@@ -48,7 +48,7 @@
                 </thead>
                 <tbody id="corpo">
                     <a id="debito"></a>
-                    <tr class='coluninhas  '>
+                    <tr class='coluninhas '>
                         <td id="numero"></td>
                         <td id="data"></td>
                         <td id="descricao"></td>

@@ -15,8 +15,8 @@ create table lancamentos(
 describe lancamentos;
 show tables;
 
-load data infile 'C:/Users/Beatriz/Desktop/JavaScript/BackEnd/Lancamento- front&back/lancamentos_back/lancamentos.csv'
--- load data infile 'C:/Users/Desenvolvimento.DESKTOP-CJ165MI/Desktop/JavaScript/BackEnd/Lancamento- front&back/lancamentos_back/lancamentos.csv'
+-- load data infile 'C:/Users/Beatriz/Desktop/JavaScript/BackEnd/Lancamento- front&back/lancamentos_back/lancamentos.csv'
+load data infile 'C:/Users/Desenvolvimento.DESKTOP-CJ165MI/Desktop/Projeto---japoneis/Lancamento_front&back/lancamentos_back/lancamentos.csv'
 into table lancamentos
 fields terminated by ';'
 enclosed by '"'
